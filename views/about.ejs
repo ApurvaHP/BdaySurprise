@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>Eshu turns 30</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href="css/portfolio.css" rel="stylesheet" type="text/css" />
+  <link href="css/dark.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="welcome">
+	    <h1><span> IT'S YOUR DAY</span></h1>
+	  </div><!--end welcome-->
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="/">Home</a></li>
+          <li class="current"><a href="/About">About</a></li>
+          <li class="last"><a href="/Testimonials">Testimonials</a></li>
+        </ul>
+      </div><!--end menubar-->
+    </div><!--end header-->
+    
+	<div id="site_content">  
+	
+      <div id="text_content">
+        <h2>Users Who Signed Your Slam Book</h2>
+
+      <h3>UserList</h3>   
+      <ul><% about.forEach(function(user){ %>
+      <li>
+        <a style="color: #FFFF66;" href="/testimonials/<%= user%>"><%= user%></a>
+      </li>
+      <!-- <li>
+        <a href="mailto:testuser2@testdomain.com">user.email</a>
+      </li>
+      <li>
+        <a href="mailto:testuser3@testdomain.com">user.testuser3</a>
+      </li> -->
+      <% });%>
+      </ul>
+
+	  </div><!--close text_content-->	
+	
+      <div class="static_image">
+	    <img width="200" height="200" src="images/ourwork" alt="our work" />
+	  </div>
+	       
+	</div><!--end site_content--> 
+  </div><!--end main-->
+  
+
+  <div id="footer">
+    <div id="footer_container">
+    <div class="footer_container_box">
+    <h4 style="color:#66FFFF;">B'day Party</h4>
+      <p>Celebration begins on May 22nd at Yellowstone Park</p>
+      <a style="font-style:italic; color:#E0FFFF;" href="ourwork.html">Read more</a>
+    </div><!--close footer_container_box-->
+      <div class="footer_container_box">
+       <h4 style="color:#66FFFF;">Latest Testimonials</h4>
+      <p> Your loved ones wish you from all over the world</p>
+      <a style="font-style:italic; color:#E0FFFF;" href="Testimonials.html">Read more</a>
+    </div><!--close footer_container_box-->
+      <div class="footer_container_boxl">
+    <h4 style="color:#66FFFF;">Watch how your grew so old!</h4>
+      <p> 30 but still awesome! Rewind through your memories.</p>
+      <a style="font-style:italic; color:#E0FFFF;" href="Home.html">Read more</a>  
+    </div><!--close footer_container_box1-->      
+    <br style="clear:both"/>
+    <br />
+    <a href=""></a> Eshu's Birthday Website By <a href="https://www.facebook.com/apurva.hp">Apurva HP</a>
+    </div><!--close footer_container--> 
+  </div><!--close footer--> 
+  
+  </body>
+  <script type="text/javascript">
+  function AssignValues() 
+  {
+   sessionStorage.setItem("user", user.username);
+   alert(user.username);
+ }
+
+  </script>
+</html>

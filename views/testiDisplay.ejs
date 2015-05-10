@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>Eshu turns 30</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  <link href="/css/portfolio.css" rel="stylesheet" type="text/css" />
+  <link href="/css/dark.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="welcome">
+      <h1><span>YOUR B'DAY </span>WISHES</h1>
+	  </div><!--end welcome-->
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/About">About</a></li>
+          <li class="current"><a href="/Testimonials">Testimonials</a></li>
+        </ul>
+      </div><!--end menubar-->
+    </div><!--end header-->
+	
+	<div id="site_content">	
+
+	  <div id="text_content"> 
+
+    <ul>
+    <% posts.forEach(function(user){ %>
+      <form> 
+        <h4>Testimonial</h4>
+        <h3><%= user.username%></h3>
+        <label style="font-style: italic; color:#FFFF66;">My Name :</label> <%= user.username %> </br></br>
+        <label style="font-style: italic; color:#FFFF66;">How long we have known each Other :</label> <%= user.known_time %></br></br> 
+        <label style="font-style: italic; color:#FFFF66;">Our most memorable time together :</label> <%=user.Memorable_time%></br></br>
+        
+        <label style="font-style: italic; color:#FFFF66;">One word that defines Eshwar :</label> <%=user.One_word%></br></br>
+       
+        <label style="font-style: italic; color:#FFFF66;">My first impression when I met you :</label> <%=user.first_impression%></br></br>
+       
+        <label style="font-style: italic; color:#FFFF66;">Birthday Message :</label> <%=user.Bday_message%></br></br>
+
+        <label style="font-style: italic; color:#FFFF66;">Other Comments :</label> <%=user.Other_comments%></br></br>
+        <hr>
+        </form>
+      <% });%>
+    </ul>
+	  </div><!--close text_content-->
+
+      <div class="static_image">
+	    <img width="200" height="200" src="images/contact.jpg" alt="contact" />
+	  </div> 	
+
+    </div><!--end site_content--> 
+  </div><!--end main-->
+
+  <div id="footer">
+    <div id="footer_container">
+    <div class="footer_container_box">
+      <h4>B'day Party</h4>
+      <p>Celebration begins on May 22nd at Yellowstone Park</p>
+      <a href="ourwork.html">Read more</a>
+    </div><!--close footer_container_box-->
+      <div class="footer_container_box">
+       <h4>Latest Testimonials</h4>
+      <p> Your loved ones wish you from all over the world</p>
+      <a href="Testimonials.html">Read more</a>
+    </div><!--close footer_container_box-->
+      <div class="footer_container_boxl">
+    <h4>Watch how your grew so old!</h4>
+      <p> 30 but still awesome! Rewind through your memories.</p>
+      <a href="Home.html">Read more</a>  
+    </div><!--close footer_container_box1-->      
+    <br style="clear:both"/>
+    <br />
+    <a href=""></a> Eshu's Birthday Website By <a href="https://www.facebook.com/apurva.hp">Apurva HP</a>
+    </div><!--close footer_container--> 
+  </div><!--close footer--> 
+  
+</body>
+</html>

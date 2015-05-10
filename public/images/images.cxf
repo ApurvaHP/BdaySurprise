@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<collage version="2" format="16:10" orientation="landscape" theme="picturepile" shadows="1" captions="1" albumUID="aff668a83ef5f7a1c6ed2a840a2554be">
+ <albumTitle>Collages</albumTitle>
+ <albumDate>May 2015</albumDate>
+ <background type="image">
+  <src>$Desktop/Node/EshBday/public/images/pattern.jpg</src>
+ </background>
+ <spacing value="0.000000"/>
+ <node x="0.472070" y="0.023054" w="0.329102" h="0.449505" theta="-0.030580" scale="337.000000">
+  <theme>whiteborder</theme>
+  <src>$Desktop/Node/EshBday/public/images/E3-001.jpg</src>
+  <uid>921ac7ce3ee79de5da93d476f5a1d172</uid>
+ </node>
+ <node x="0.087486" y="0.048001" w="0.329102" h="0.495827" theta="0.009034" scale="337.000000">
+  <theme>whiteborder</theme>
+  <src>$Desktop/Node/EshBday/public/images/E8.jpg</src>
+  <uid>0e473ff58ee22a428d67ebaa4447ac9c</uid>
+ </node>
+ <node x="0.579769" y="0.507550" w="0.329102" h="0.394575" theta="-0.049984" scale="337.000000">
+  <theme>whiteborder</theme>
+  <src>$Desktop/Node/EshBday/public/images/EF.jpg</src>
+  <uid>409770db37bd4a11f1c8f2960214dbde</uid>
+ </node>
+ <node x="0.158724" y="0.524031" w="0.329102" h="0.394575" theta="-0.094596" scale="337.000000">
+  <theme>whiteborder</theme>
+  <src>$Desktop/Node/EshBday/public/images/EM.jpg</src>
+  <uid>4092d81f1165f11350931a68d34f5de6</uid>
+ </node>
+</collage>
