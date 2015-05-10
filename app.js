@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 //New Code - for mongodb connection
 var mongo = require('mongodb');
 var monk = require('monk');
-var db = monk('localhost:27017/usernodedb');
+var db = monk('mongodb://root:root@ds035617.mongolab.com:35617/nodebdayproj');
 
 var routes = require('./routes/index'); //routes variable is pointing at index router
 var users = require('./routes/users');
